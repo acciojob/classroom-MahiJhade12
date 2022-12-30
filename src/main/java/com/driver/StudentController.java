@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController {
 
     @PostMapping("/add-student")
-    public ResponseEntity<String> addStudent(@RequestBody Student student){
+    public ResponseEntity<String> addStudent(@RequestBody Student A){
 
         return new ResponseEntity<>("New student added successfully", HttpStatus.CREATED);
     }
