@@ -6,8 +6,7 @@ import java.util.HashSet;
 import java.util.List;
 
 public class StudentRepository {
-
-  /  private HashMap<String, Student> studentMap;
+    private HashMap<String, Student> studentMap;
     private HashMap<String, Teacher>  teacherMap;
     private HashMap<String, List<String>> teacherStudentMapping;
 
